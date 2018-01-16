@@ -16,4 +16,16 @@ start:
     mov word [0xb8014], 0x026c ; t
     mov word [0xb8016], 0x0264 ; O
     mov word [0xb8018], 0x0221 ; S
+    section .bss
     hlt
+
+section .bss
+
+align 4096
+
+p4_table:
+    resb 4096
+p3_table:
+    resb 4096
+p2_table:
+    resb 4096
