@@ -5,5 +5,7 @@ The goal of the project is to create a free OS that can run multiple coding lang
 ninetyeightOS is currently compatible with no programs, because it is in VERY early stages. However, support for the following programs is planned, alongside many more:
   
 CPUMiner
+
+MicroCPUID
   
 # Please note that this list is not near finished.
