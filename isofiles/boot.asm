@@ -2,6 +2,14 @@ global start
 
 section .text
 bits 32
+
+start:
+    ; Point the first entry of the level 4 page table to the first entry in the
+    ; p3 table
+    mov eax, p3_table
+    or eax, 0b11
+    mov dword [p4_table + 0], eax
+    
 start:
     mov word [0xb8000], 0x0248 ; n
     mov word [0xb8002], 0x0265 ; i
