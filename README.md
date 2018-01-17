@@ -19,4 +19,10 @@ Wine
 
 # Resources:
 
-intermezzos.github.io
+https://intermezzos.github.io/book/preface.html (all of this)
+
+https://www.techwalla.com/articles/how-to-a-read-text-file-in-python
+
+https://stackoverflow.com/
+
+https://doc.rust-lang.org/std/
