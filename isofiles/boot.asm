@@ -57,9 +57,8 @@ start:
     mov ds, ax
     mov es, ax
 
-    ; jump to long mode!
-    jmp gdt64.code:long_mode_start
-        
+    jmp gdt64.code:kmain
+  
     mov word [0xb8000], 0x0248 ; n
     mov word [0xb8002], 0x0265 ; i
     mov word [0xb8004], 0x026c ; n
