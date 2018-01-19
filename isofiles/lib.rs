@@ -3,6 +3,13 @@
 #![no_std]
 
 fn main() {
+#[no_mangle]
+pub extern fn kmain() -> ! {
+
+    loop { }
+}
+}
+
 #[lang = "eh_personality"]
 extern fn eh_personality() {
 }
