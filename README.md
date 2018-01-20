@@ -6,8 +6,6 @@ ninetyeightOS is currently compatible with no programs, because it is in VERY ea
   
 CPUMiner
 
-MicroCPUID
-
 Doom (original)
 
 Minetest
@@ -26,4 +24,3 @@ https://stackoverflow.com/
 
 https://doc.rust-lang.org/std/
 
-https://github.com/howl-anderson/MicroCPUID
